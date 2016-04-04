@@ -1,4 +1,4 @@
-Register *
+Register 
 log in/out
 password creation
 posting
@@ -9,3 +9,11 @@ follow/unfollow
 search feature
 Tweet attachments
 Like/comment/retweet
+
+
+Functions We Need
+- Registration
+-Password creation
+-Feed 
+-Log In/ Out
+-Feed
