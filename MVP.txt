@@ -17,6 +17,9 @@ Functions We Need
 -Posting
 -Log In/ Out
 -Feed
+-Character Limit
 
 Functions We Might Add
 -Music Player
+-Search
+-Follow/ Unfollow
