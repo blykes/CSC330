@@ -32,12 +32,12 @@ Registration Function
 
 Password Function
 - Function to maintain character limit( 8-10 characters)
--can letters and numbers
+- can letters and numbers
 - look to recycle code for user/pass creation 
 
 Log In/ Out
 -might want to use a button
 -when we log in, it asks user to enter information
--for logging out, might want to reverse function?
+-for logging out, might want to reverse function? - potential code reuse
   - also have a button to sign out
-  -can be part of the GUI
+  - can be part of the GUI
