@@ -33,6 +33,7 @@ Registration Function
 Password Function
 - Function to maintain character limit( 8-10 characters)
 -can letters and numbers
+- look to recycle code for user/pass creation 
 
 Log In/ Out
 -might want to use a button
