@@ -20,7 +20,13 @@ Functions We Need
 -Character Limit
 
 Functions We Might Add
--Check whether the username is taken
 -Music Player
 -Search
+-Profile picture
 -Follow/ Unfollow
+
+
+Registration Function
+- Ask user for a first name and last name
+- Ask user to create a username and password
+
