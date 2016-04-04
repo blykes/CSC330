@@ -20,6 +20,7 @@ Functions We Need
 -Character Limit
 
 Functions We Might Add
+-Check whether the username is taken
 -Music Player
 -Search
 -Follow/ Unfollow
