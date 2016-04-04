@@ -30,3 +30,8 @@ Registration Function
 - Ask user for a first name and last name
 - Ask user to create a username and password
 
+Password Function
+- Function to maintain character limit( 8-10 characters)
+-can letters and numbers
+
+
