@@ -14,7 +14,7 @@ Like/comment/retweet
 Functions We Need
 - Registration
 -Password creation
--Feed 
+-Posting
 -Log In/ Out
 -Feed
 
