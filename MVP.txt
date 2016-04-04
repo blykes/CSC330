@@ -1,4 +1,4 @@
-Register
+Register *
 log in/out
 password creation
 posting
