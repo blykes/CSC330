@@ -1,0 +1,10 @@
+Register
+log in/out
+password creation
+posting
+Feed
+Character limit
+music player
+follow/unfollow
+search feature
+Tweet attachments
