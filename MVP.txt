@@ -17,3 +17,6 @@ Functions We Need
 -Feed 
 -Log In/ Out
 -Feed
+
+Functions We Might Add
+-Music Player
