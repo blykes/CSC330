@@ -8,3 +8,4 @@ music player
 follow/unfollow
 search feature
 Tweet attachments
+Like/comment/retweet
