@@ -57,3 +57,5 @@ Sites
 - https://www.packtpub.com/books/content/build-your-own-application-access-twitter-using-java-and-netbeans-part-1
 
 - http://dev.mysql.com/downloads/
+
+- http://www.developer.com/java/article.php/10922_3833556_2/Writing-Your-own-Twitter-Application-Using-Java-Swing-and-Twitter4j.htm
