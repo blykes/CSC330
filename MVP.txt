@@ -45,3 +45,9 @@ Log In/ Out
   Posting
   -use a character array
   - to store post history, we might want to use a collection
+
+
+Sites
+- http://twitter4j.org/en/code-examples.html#directMessage
+
+- https://www.youtube.com/watch?v=2-iz5CduZdw
