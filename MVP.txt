@@ -55,3 +55,5 @@ Sites
 - http://www.javaworld.com/article/2078003/java-se/write-your-own-twitter-application.html
 
 - https://www.packtpub.com/books/content/build-your-own-application-access-twitter-using-java-and-netbeans-part-1
+
+- http://dev.mysql.com/downloads/
