@@ -51,3 +51,5 @@ Sites
 - http://twitter4j.org/en/code-examples.html#directMessage
 
 - https://www.youtube.com/watch?v=2-iz5CduZdw
+
+- http://www.javaworld.com/article/2078003/java-se/write-your-own-twitter-application.html
