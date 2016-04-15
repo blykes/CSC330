@@ -1,0 +1,48 @@
+//login 
+
+public class LoginAccount extends HttpAccount {  
+    protected void doPost(HttpAccountRequest request, HttpAccountResponse response)  
+                    throws AccountException, IOException {  
+        response.setContentType("text/html");  
+        PrintWriter out=response.getWriter();  
+        request.getRequestDispatcher("link.html").include(request, response);  
+          
+        String name=request.getParameter("name");  
+        String password=request.getParameter("password");  
+          
+        if(password.equals("admin123")){  
+        out.print("Welcome, "+name);  
+        HttpSession session=request.getSession();  
+        session.setAttribute("name",name);  
+        }  
+        else{  
+            out.print("Sorry, username or password error!");  
+            request.getRequestDispatcher("login.html").include(request, response);  
+        }  
+        out.close();  
+    }  
+}  
+
+
+
+
+
+//logout
+
+
+public class LogoutAccount extends HttpAccount {  
+        protected void doGet(HttpAccountRequest request, HttpAccountResponse response)  
+                                throws AccountException, IOException {  
+            response.setContentType("text/html");  
+            PrintWriter out=response.getWriter();  
+              
+            request.getRequestDispatcher("link.html").include(request, response);  
+              
+            HttpSession session=request.getSession();  
+            session.invalidate();  
+              
+            out.print("You are successfully logged out!");  
+              
+            out.close();  
+    }  
+}  
