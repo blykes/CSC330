@@ -1,0 +1,17 @@
+import org.dom4j.Element;
+
+public class SystemOutTweets implements TweetConsumer {
+    public String tweet(Element tweet) {
+        System.out.println(tweet.asXML());
+        return tweet.elementText("id");
+    }
+
+    public static void main(String[] args) throws TweetException {
+        TweetProducer t = new TweetProducer();
+        t.createClient("bruno1970", "myfakepassword");
+        t.setConsumer(new SystemOutTweets());
+        System.out.println("Start tweeting:");
+        String id = t.execute(null);
+        System.out.println("The End; last tweet: " + id);
+    }
+}
