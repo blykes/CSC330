@@ -1,4 +1,4 @@
-//Tweet exception
+//Tweet exception JavaWorld
 
 public class TweetException extends Exception {
     private static final long serialVersionUID = 7577136074623618615L;
