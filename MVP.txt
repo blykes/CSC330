@@ -15,7 +15,7 @@ Functions We Need
 - Registration
 -Password creation
 -Posting
--Log In/ Out
+-Log In/ Out (Done)
 -Feed
 -Character Limit
 
