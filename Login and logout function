@@ -46,3 +46,20 @@ public class LogoutAccount extends HttpAccount {
             out.close();  
     }  
 }  
+
+
+//login/out with swing from developer.com link in MVP
+
+ public static void main(String[] args) throws TwitterException{
+          LoginDialog login = new LoginDialog();
+          String userName = login.getUserName();
+          String password = login.getPassword();
+  
+          try{
+              Twitter twitter = new Twitter(userName, password);
+              twitter.verifyCredentials();
+              JOptionPane.showMessageDialog(login, "Login successful!");
+          } catch(TwitterException e){
+              JOptionPane.showMessageDialog(login, "Unable to login");
+          }
+      }
