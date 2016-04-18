@@ -1,0 +1,10 @@
+String.substring(0, maxLength); 
+
+String aString ="123456789";
+String cutString = aString.substring(0, 4);
+// Output is: "1234" 
+
+If we are not getting an "IndexOutOfBoundsException" when the input string is less than the expected length do the following instead:
+
+int maxLength = (inputString.length() < MAX_CHAR)?inputString.length():MAX_CHAR;
+inputString = inputString.substring(0, maxLength);
