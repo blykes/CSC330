@@ -1,2 +1,5 @@
+// creates the GUI for twitter
 https://netbeans.org/kb/72/websvc/twitter-swing.html
 
+// allows us to add color ( I believe to the background)
+http://stackoverflow.com/questions/1081486/setting-background-color-for-the-jframe
