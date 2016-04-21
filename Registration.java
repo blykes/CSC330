@@ -17,9 +17,8 @@ public class Registration {
 			//read in the users to a file
 			public static List<String> readAllLines;
 			
-			//collection of users to be read in
-			private String userName;
-			private String password;
+			
+			
 			private List users;
 			//store something
 			private Set set;
@@ -28,7 +27,7 @@ public class Registration {
 		// TODO Auto-generated constructor stub
 		init();	
 	}
-	
+	/*
 	public String getuserName()
 	{
 		return userName;
@@ -54,7 +53,7 @@ public class Registration {
 		this.password = password;
 	}
 	
-	
+	*/
 	private void init() throws IOException
 	{
 		//list = new Userlist(INITIAL_COLLECTION_SIZE);
@@ -62,10 +61,10 @@ public class Registration {
 		readAllLines = Files.readAllLines(Paths.get("/users/brianlykes/Documents/workspace/CSC330/src/ProjectUserPass.txt"));
 		//set = new Userset(INITIAL_MAP_SIZE);
 		System.out.println(readAllLines);
-		populate();
+		registerUser();
 	}
 	
-	public void populate()
+	public void registerUser()
 	{
 		
 		
