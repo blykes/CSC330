@@ -1,3 +1,5 @@
+//package edu.cuny.csi.csc330.project;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -273,7 +275,7 @@ public class LoginFrame extends JFrame {
 	 * Create the frame.
 	 */
 	public LoginFrame() {
-		try {
+		/*try {
 			AudioInputStream audioIn = AudioSystem.getAudioInputStream(getClass().getResource("LetItGo.wav"));
 			Clip clip = AudioSystem.getClip();
 			clip.open(audioIn);
@@ -283,7 +285,7 @@ public class LoginFrame extends JFrame {
 		} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
-		}
+		}*/
 		
 		setTitle("Login");
 		setIconImage(new ImageIcon(getClass().getResource("twitter.png")).getImage());
