@@ -1,0 +1,8 @@
+Screen Shot Where We Used DRY
+What did you guys as a whole learn from doing this assignment?
+Is the code configurable?
+Is it maintainable? Like sweet and simple?
+Why do you use files because it seems it doesn't seem like a DRY representation?
+^ We have more control and it's manageable for us as the creators.
+Is it readable?
+Can it be understood by others who don't know how to read code?
