@@ -1,8 +1,17 @@
-Screen Shot Where We Used DRY
+Screen Shot Where We Used DRY - done
+add to PPT - done       
+Screen shot Exceptions - Done
+add to PPT - done
 What did you guys as a whole learn from doing this assignment?
-Is the code configurable?
-Is it maintainable? Like sweet and simple?
-Why do you use files because it seems it doesn't seem like a DRY representation?
-^ We have more control and it's manageable for us as the creators.
-Is it readable?
-Can it be understood by others who don't know how to read code?
+
+Is the code configurable? - yes but since this is an early version things would have to adapted 
+  for something like a database to be more configurable than it is now. We as the creators can maitian and manafge the code. 
+  
+Is it maintainable? Like sweet and simple? Yes. Each method is maintainable, easy to read and can be easily understood by other programmers
+
+Why do you use files because it seems it doesn't seem like a DRY representation? 
+^ We have more control and it's manageable for us as the creators and easily converted to database.
+
+Is it readable? yes. its writtenin simple terms. 
+
+Can it be understood by others who don't know how to read code? Yes. It can be followed and the objects are neamed appropriately
